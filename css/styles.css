@@ -1,0 +1,325 @@
+.intro-header {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding:45px 90px 45px 90px;
+  justify-content: center;
+  background-image: linear-gradient(45deg,transparent 20%, #ccc 25%,transparent 0),linear-gradient(-45deg,transparent 20%,#ccc 25%,transparent 0),linear-gradient(-45deg,transparent 75%,#ccc 80%,transparent 0),radial-gradient(#efe 2px,transparent 0);
+  background-size: 18px 18px,18px 18px;
+  height: 100vh;
+  align-items: center;
+}
+.container-header{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 20px;
+  padding-bottom:0px
+}
+.nav-container{
+      border-bottom: 1px solid rgb(238, 238, 238);
+    
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 30px;
+  color: #3f3356;
+  font-size: 1.3rem;
+}
+ul li p{
+display: inline;
+
+}
+ul span img {
+  width: 15px;
+  margin-right: 5px;
+}
+.heading-text {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 7%;
+  font-size: 2rem;
+}
+.bounce{
+animation: bounce 12s infinite;
+width: 75%;
+margin-left: 120px;
+}
+@keyframes bounce {
+0%{
+    transform: translateY(0px)
+}
+50%{
+    
+    transform: translateY(70px);}
+  100%{
+      transform: translateY(-5px);}
+}
+ @media screen (max-width:820px){
+   .side-2 {
+     display: none;
+   }
+
+ }
+
+.btn-start{
+  background-color: rgb(33,153,136);
+  width: 150px;
+  height: 58px;
+  color:white;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: rgb(33,153,136);
+  color: white;
+  text-decoration: underline;
+}
+
+
+.body-intro{
+  background-color: rgb(228,249,245);
+  padding: 4%;
+  position: relative;
+}
+
+.card{
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+      border-radius: 5px;
+      margin: 5%;
+
+}
+
+.card-body img{
+  width: 22%;
+  margin-left:15px ;
+  margin-bottom: 15px;
+}
+.card-body h6, p {
+  margin: 0.9em;
+}
+
+.materials{
+  background-image: linear-gradient(45deg,transparent 20%, #ccc 25%,transparent 0),linear-gradient(-45deg,transparent 20%,#ccc 25%,transparent 0),linear-gradient(-45deg,transparent 75%,#ccc 80%,transparent 0),radial-gradient(#efe 2px,transparent 0);
+  background-size: 18px 18px,18px 18px;
+  padding: 30px;
+}
+.material a{
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(44, 62, 80);
+  
+}
+.lecture-notes {
+  color: rgb(254, 126, 138);
+  font-size: 3.7rem;
+    font-weight: 600;
+}
+.lecture-topics {
+  color:#ebc97a;
+  font-size: 3.7rem;
+    font-weight: 600;
+}
+.question-papers {
+   color: #4e6532;
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.project-materials {
+  color: #219988;
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+.material p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.upload-section{
+  background-color: rgb(228,249,245);
+}
+.container-upload{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.upload-img img{
+  font-size: 70px;
+  margin-left: 50%;
+  width: 30%;
+}
+.upload-text{
+  font-size: 25px;
+}
+.upload-btn{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left:10% ;
+  
+}
+@media screen and (max-width:820px){
+ .container-upload{
+   display: block;
+  
+ }
+
+ .upload-img img{
+    margin-left: 35%;
+ }
+
+ .upload-text1{
+   font-size:20px;
+   
+   margin-left:10%;
+   padding-top:10%;
+ }
+ .upload-btn{
+   align-items: center;
+   margin-left: 30%;
+   margin-top: 20px;
+ }
+}
+footer{
+  position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(24deg,#40514e,#40514e 50%,#219988);
+    
+}
+.row{
+  padding-top: 60px;
+}
+ul li a {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+ul li a:hover{
+  color: white;
+  text-decoration: none;
+}
+.bg-signin{
+  background-color:  rgb(136,237,207);
+}
+
+.card{
+  height: 100%;
+}
+.btn-start2{
+  width: 100%;
+  background-color:  rgb(136,237,207);
+  border: none;
+}
+.btn-start2:hover{
+  background-color:  rgb(136,237,207);
+}
+.signup-link{
+  position: relative;
+    bottom: 0;
+    padding: 1rem 0 2.5rem;
+    background: #e1e5e9;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.forget-password a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.sign-up{
+  color: black;
+}
+.signup-link a{
+  text-decoration: none;
+}
+
+.bg-body{
+  background-color:  rgb(228,248,245)
+  
+
+}
+.about-container{
+  width: 70%;
+  height: ;
+  background-color:  rgb(228,248,245);
+    padding: 2% 5%;
+    border-radius: 1rem;
+    margin: 0 0 0 15%;
+}
+.content-body{
+  width : 75%;
+  text-align: left;
+  line-height: 1.5;
+  border-radius: 3px;
+  padding: 2% 4% 5% 5%;
+  font-size: 20px;
+}
+.content-body h3{
+  margin-left: 12px;
+}
+.notes-body{
+  background-color: rgb(230,249,253);
+}
+.bg-colorB {
+  background-color: rgb(56,131,38);
+}
+.bg-colorC {
+  background-color: rgb(153,87,32)
+}
+.bg-colorD {
+  background-color: rgb(80,54,102)
+}
+.bg-colorE {
+  background-color: rgb(54,152,67)
+}
+.bg-colorF {
+  background-color: rgb(22,25,119)
+}
+.bg-colorG {
+  background-color: rgb(65,146,131)
+}
+.bg-colorH {
+  background-color: rgb(53,81,113)
+}
+.bg-colorI {
+  background-color: rgb(41,1,105)
+}
+.bg-colorK {
+  background-color:rgb(71,86,24)
+}
+.bg-colorM {
+  background-color: rgb(40,3,97)
+}
+
+.lext-body  p{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.lecture-note ul{
+  padding: 0 5%;
+}
+.tab-header1{
+  width: 70%;
+  margin-left: 50px;
+}
